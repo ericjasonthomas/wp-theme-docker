@@ -1,2 +1,2 @@
 # wp-ethomasweb
-Wordpress theme
+Docker for wordpress development
