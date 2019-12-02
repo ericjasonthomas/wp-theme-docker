@@ -1,0 +1,3 @@
+[submodule "wp-content/themes/ethomasweb"]
+	path = wp-content/themes/ethomasweb
+	url = git@github.com:ericjasonthomas/ethomasweb.git
