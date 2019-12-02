@@ -1,0 +1,11 @@
+{
+  "name": "wp-ethomas-src",
+  "version": "1.0.0",
+  "description": "wordpress theme for EThomas",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Eric Thomas",
+  "license": "ISC"
+}
