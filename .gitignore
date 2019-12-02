@@ -1,19 +1,99 @@
+# Package and Built Files #
+##########################3
+!.gitkeep
+vendor/
+!build/src/js/vendor
+node_modules/
+.env
+# **/*/svg-defs.svg
+wordpress/wp-content/themes/ethomasweb/**/*
+
+# Database Backups #
+####################
+db/
+
+# Sensitive Items #
+###################
+terraform.tfstate
+terraform.tfstate.backup
+credentials.json
+account.json
+.terraform
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
 *.log
-wp-config.php
-wp-content/advanced-cache.php
-wp-content/backup-db/
-wp-content/backups/
-wp-content/blogs.dir/
-wp-content/cache/
-wp-content/upgrade/
-wp-content/uploads/
-wp-content/mu-plugins/
-wp-content/wp-cache-config.php
-wp-content/plugins/hello.php
+*.sql
+!leads.sql.gz
+*.sqlite
+elasticsearch/data/
+logs/nginx/access.log
+logs/nginx/error.log
+logs/
 
-/.htaccess
-/license.txt
-/readme.html
-/sitemap.xml
-/sitemap.xml.gz
 
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._.*
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Webstorm idea files #
+######################
+*.idea/
+
+# Sublime #
+###########
+*.sublime-project
+*.sublime-workspace
+
+# VSCode
+.vscode/
+
+# Ignore custom temp assets #
+#############################
+.tmp/
+
+# Wordpress #
+#############
+wordpress/shared/uploads
+wordpress/uploads/
+wordpress/wp_content/
+wordpress/wp-content/cache/
+wordpress/wp-content/cache/autoptimize/*
+wordpress/wp-content/themes/twenty*/
+wordpress/wp-content/uploads/
+
+scripts/fingerprint
+scripts/priv
+scripts/pub
+
+!*.enc.*
+*.tgz
